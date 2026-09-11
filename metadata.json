@@ -1,0 +1,6 @@
+{
+  "name": "NetSpeedz",
+  "description": "Kiểm tra & phân tích đường truyền mạng của bạn. Non-backend, không lưu dữ liệu, miễn phí & bảo mật.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
