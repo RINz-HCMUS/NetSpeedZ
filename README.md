@@ -1,34 +1,25 @@
 <div align="center">
 
-  <a href="https://github.com/">
-    <img src="./public/logo.svg" width="104" height="104" alt="NetSpeedZ Official Logo" />
+  <a href="https://net-speedz.vercel.app/" target="_blank" rel="noopener noreferrer">
+    <img src="./public/banner.svg" alt="NetSpeedZ Official Banner" width="100%" style="max-width: 820px; border-radius: 16px;" />
   </a>
 
-  <h1>
-    <span style="color: #2563eb;">Net</span><span style="color: #0284c7;">Speed</span><span style="color: #06b6d4; font-weight: 900;">Z</span>
-  </h1>
+  <br /><br />
 
-  <p><strong>Giải pháp Đo kiểm, Phân tích Hiệu năng &amp; Chẩn đoán Đường truyền Internet Thế hệ Mới</strong></p>
-
-  [![Version](https://img.shields.io/badge/version-2.4.0-06B6D4.svg?style=for-the-badge&logo=semver&logoColor=white)](https://github.com/)
-  [![Build Status](https://img.shields.io/badge/build-passing-10B981.svg?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/)
+  [![Live Demo](https://img.shields.io/badge/Demo-net--speedz.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://net-speedz.vercel.app/)
+  [![Version](https://img.shields.io/badge/version-2.4.0-06B6D4.svg?style=for-the-badge&logo=semver&logoColor=white)](https://net-speedz.vercel.app/)
+  [![Build Status](https://img.shields.io/badge/build-passing-10B981.svg?style=for-the-badge&logo=githubactions&logoColor=white)](https://net-speedz.vercel.app/)
   [![TypeScript](https://img.shields.io/badge/TypeScript-5.5-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
   [![React](https://img.shields.io/badge/React-18.3-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
   [![Vite](https://img.shields.io/badge/Vite-5.4-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
   [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
   [![License](https://img.shields.io/badge/License-MIT-F59E0B.svg?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](LICENSE)
-  [![Zero Backend](https://img.shields.io/badge/Architecture-Zero--Backend-8B5CF6?style=for-the-badge&logo=cloudflare&logoColor=white)](https://github.com/)
+  [![Zero Backend](https://img.shields.io/badge/Architecture-Zero--Backend-8B5CF6?style=for-the-badge&logo=cloudflare&logoColor=white)](https://net-speedz.vercel.app/)
   [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge&logo=git&logoColor=white)](CONTRIBUTING.md)
 
-  <br />
+  <br /><br />
 
-  <p align="center">
-    <img src="./public/banner.svg" alt="NetSpeedZ Official Banner" width="100%" style="max-width: 820px; border-radius: 16px;" />
-  </p>
-
-  <br />
-
-  **[ 🌐 Trải nghiệm Trực tiếp ]** &nbsp;&bull;&nbsp; **[ 📖 Tài liệu Kỹ thuật ](#-kiến-trúc-kỹ-thuật)** &nbsp;&bull;&nbsp; **[ 🚀 Triển khai 1-Click ](#-triển-khai-nhanh-1-click-deployment)** &nbsp;&bull;&nbsp; **[ 🐛 Báo cáo Lỗi ](https://github.com/)** &nbsp;&bull;&nbsp; **[ 💡 Đề xuất Tính năng ](https://github.com/)**
+  **[ 🌐 Trải nghiệm Trực tiếp: net-speedz.vercel.app ](https://net-speedz.vercel.app/)** &nbsp;&bull;&nbsp; **[ 📖 Tài liệu Kỹ thuật ](#-kiến-trúc-kỹ-thuật)** &nbsp;&bull;&nbsp; **[ 🚀 Triển khai 1-Click ](#-triển-khai-nhanh-1-click-deployment)** &nbsp;&bull;&nbsp; **[ 🐛 Báo cáo Lỗi ](https://github.com/)** &nbsp;&bull;&nbsp; **[ 💡 Đề xuất Tính năng ](https://github.com/)**
 
 </div>
 
@@ -217,6 +208,8 @@ Sau khi biên dịch, gói phân phối tối ưu hóa sẽ được tạo tại
 ---
 
 ## 🚀 Triển khai nhanh (1-Click Deployment)
+
+> ⚡ **Bản dựng chính thức đang hoạt động tại:** [https://net-speedz.vercel.app/](https://net-speedz.vercel.app/)
 
 Vì NetSpeedZ được xây dựng dưới dạng **Single Page Application (SPA)** tĩnh, bạn có thể triển khai miễn phí vĩnh viễn với CDN toàn cầu qua các nền tảng sau:
 
