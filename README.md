@@ -1,22 +1,34 @@
 <div align="center">
 
-# ⚡ NetSpeedZ
+  <a href="https://github.com/">
+    <img src="./public/logo.svg" width="104" height="104" alt="NetSpeedZ Official Logo" />
+  </a>
 
-### Giải pháp Đo kiểm, Phân tích Hiệu năng & Chẩn đoán Đường truyền Internet Thế hệ Mới
+  <h1>
+    <span style="color: #2563eb;">Net</span><span style="color: #0284c7;">Speed</span><span style="color: #06b6d4; font-weight: 900;">Z</span>
+  </h1>
 
-[![Version](https://img.shields.io/badge/version-2.4.0-06B6D4.svg?style=for-the-badge&logo=semver&logoColor=white)](https://github.com/)
-[![Build Status](https://img.shields.io/badge/build-passing-10B981.svg?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.5-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![React](https://img.shields.io/badge/React-18.3-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
-[![Vite](https://img.shields.io/badge/Vite-5.4-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
-[![License](https://img.shields.io/badge/License-MIT-F59E0B.svg?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](LICENSE)
-[![Zero Backend](https://img.shields.io/badge/Architecture-Zero--Backend-8B5CF6?style=for-the-badge&logo=cloudflare&logoColor=white)](https://github.com/)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge&logo=git&logoColor=white)](CONTRIBUTING.md)
+  <p><strong>Giải pháp Đo kiểm, Phân tích Hiệu năng &amp; Chẩn đoán Đường truyền Internet Thế hệ Mới</strong></p>
 
-<br />
+  [![Version](https://img.shields.io/badge/version-2.4.0-06B6D4.svg?style=for-the-badge&logo=semver&logoColor=white)](https://github.com/)
+  [![Build Status](https://img.shields.io/badge/build-passing-10B981.svg?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/)
+  [![TypeScript](https://img.shields.io/badge/TypeScript-5.5-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+  [![React](https://img.shields.io/badge/React-18.3-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
+  [![Vite](https://img.shields.io/badge/Vite-5.4-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+  [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+  [![License](https://img.shields.io/badge/License-MIT-F59E0B.svg?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](LICENSE)
+  [![Zero Backend](https://img.shields.io/badge/Architecture-Zero--Backend-8B5CF6?style=for-the-badge&logo=cloudflare&logoColor=white)](https://github.com/)
+  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge&logo=git&logoColor=white)](CONTRIBUTING.md)
 
-**[ 🌐 Trải nghiệm Trực tiếp ]** &nbsp;&bull;&nbsp; **[ 📖 Tài liệu Kỹ thuật ](#-kiến-trúc-kỹ-thuật)** &nbsp;&bull;&nbsp; **[ 🚀 Triển khai 1-Click ](#-triển-khai-nhanh-1-click-deployment)** &nbsp;&bull;&nbsp; **[ 🐛 Báo cáo Lỗi ](https://github.com/)** &nbsp;&bull;&nbsp; **[ 💡 Đề xuất Tính năng ](https://github.com/)**
+  <br />
+
+  <p align="center">
+    <img src="./public/banner.svg" alt="NetSpeedZ Official Banner" width="100%" style="max-width: 820px; border-radius: 16px;" />
+  </p>
+
+  <br />
+
+  **[ 🌐 Trải nghiệm Trực tiếp ]** &nbsp;&bull;&nbsp; **[ 📖 Tài liệu Kỹ thuật ](#-kiến-trúc-kỹ-thuật)** &nbsp;&bull;&nbsp; **[ 🚀 Triển khai 1-Click ](#-triển-khai-nhanh-1-click-deployment)** &nbsp;&bull;&nbsp; **[ 🐛 Báo cáo Lỗi ](https://github.com/)** &nbsp;&bull;&nbsp; **[ 💡 Đề xuất Tính năng ](https://github.com/)**
 
 </div>
 

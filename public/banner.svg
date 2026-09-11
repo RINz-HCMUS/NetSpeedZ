@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 220" width="100%" height="220" fill="none">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bannerBg" x1="0" y1="0" x2="840" y2="220" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#030712"/>
+      <stop offset="50%" stop-color="#0b1329"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+
+    <!-- Border Gradient -->
+    <linearGradient id="bannerBorder" x1="0" y1="0" x2="840" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#3b82f6" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0.6"/>
+    </linearGradient>
+
+    <!-- Z Gradient -->
+    <linearGradient id="textZGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="40%" stop-color="#06b6d4"/>
+      <stop offset="80%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+
+    <!-- Logo Defs -->
+    <linearGradient id="logoBg" x1="0" y1="0" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#082f49"/>
+    </linearGradient>
+
+    <linearGradient id="logoBorder" x1="0" y1="0" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+
+    <linearGradient id="zNeon" x1="10" y1="10" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="40%" stop-color="#06b6d4"/>
+      <stop offset="80%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+
+    <linearGradient id="zCore" x1="12" y1="12" x2="34" y2="34" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Container Box -->
+  <rect x="2" y="2" width="836" height="216" rx="20" fill="url(#bannerBg)" stroke="url(#bannerBorder)" stroke-width="1.5"/>
+
+  <!-- Radial Glow Behind Logo -->
+  <circle cx="120" cy="110" r="100" fill="#06b6d4" opacity="0.12" filter="url(#glow)"/>
+
+  <!-- 1. Left Logo Emblem -->
+  <g transform="translate(60, 50)">
+    <rect x="0" y="0" width="120" height="120" rx="26" fill="url(#logoBg)" stroke="url(#logoBorder)" stroke-width="2"/>
+    
+    <!-- Vector Z Symbol -->
+    <g transform="translate(18, 18) scale(1.75)">
+      <!-- Speed Stream lines -->
+      <path d="M 10 14 C 18 8, 30 8, 38 14" stroke="#38bdf8" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="3 4" opacity="0.6"/>
+      <path d="M 10 34 C 18 40, 30 40, 38 34" stroke="#38bdf8" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="3 4" opacity="0.5"/>
+
+      <!-- Z Shape -->
+      <path d="M 10 10.5 H 36.5 C 37.8 10.5 38.6 11.9 37.9 13.0 L 26.2 22 H 33.2 C 34.4 22 35.1 23.3 34.4 24.3 L 20.8 39.2 C 19.9 40.1 18.4 39.5 18.8 38.2 L 22.3 28 H 14.2 C 13.0 28 12.3 26.7 13.0 25.7 L 22.2 16.2 H 10 C 8.9 16.2 8.2 15.0 8.8 14.0 L 10 10.5 Z" fill="url(#zNeon)" stroke="#38bdf8" stroke-width="0.85"/>
+      <path d="M 12.5 12.2 H 34.2 L 24.8 19.5 H 17.5 L 12.5 12.2 Z" fill="url(#zCore)" opacity="0.9"/>
+      <path d="M 23 23.5 L 31.8 23.5 L 20 36.5 L 22.2 28.5 L 15.5 28.5 L 23 23.5 Z" fill="#ffffff" filter="url(#glow)"/>
+      <circle cx="39.5" cy="11.5" r="1.5" fill="#ffffff"/>
+    </g>
+  </g>
+
+  <!-- 2. Typography & Brand Identity -->
+  <g transform="translate(220, 0)">
+    <!-- Title -->
+    <text x="0" y="100" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="52" letter-spacing="-0.03em">
+      <tspan fill="#ffffff">NetSpeed</tspan>
+      <tspan fill="url(#textZGrad)">Z</tspan>
+    </text>
+
+    <!-- Subtitle -->
+    <text x="2" y="132" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="16" fill="#38bdf8" letter-spacing="0.05em">
+      NEXT-GEN INTERNET TELEMETRY &amp; NETWORK DIAGNOSTICS
+    </text>
+
+    <!-- Feature tags -->
+    <g transform="translate(2, 154)">
+      <rect x="0" y="0" width="112" height="24" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="56" y="16" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#94a3b8" text-anchor="middle">Zero-Backend</text>
+
+      <rect x="120" y="0" width="124" height="24" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="182" y="16" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#94a3b8" text-anchor="middle">IPv4 / IPv6 Dual</text>
+
+      <rect x="252" y="0" width="120" height="24" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="312" y="16" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#94a3b8" text-anchor="middle">RFC 3550 Jitter</text>
+
+      <rect x="380" y="0" width="138" height="24" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="449" y="16" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#94a3b8" text-anchor="middle">Bufferbloat Loaded</text>
+    </g>
+  </g>
+</svg>
