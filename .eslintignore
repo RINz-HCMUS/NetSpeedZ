@@ -1,0 +1,15 @@
+# Build & Dependency Artifacts
+node_modules/
+dist/
+dist-ssr/
+build/
+coverage/
+
+# Cache & Temp
+.cache/
+.vite/
+*.tmp
+
+# Environment & Config
+.env*
+!.env.example

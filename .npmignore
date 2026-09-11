@@ -1,0 +1,38 @@
+# ==============================================================================
+# NetSpeedZ - NPM Ignore Rules
+# ==============================================================================
+
+# Source & Config
+src/
+public/
+tsconfig*.json
+vite.config.ts
+.eslintrc*
+.prettier*
+
+# Git & GitHub
+.git/
+.github/
+.gitignore
+
+# Environment & Logs
+.env*
+!.env.example
+*.log
+logs/
+
+# Tests & Coverage
+test/
+tests/
+coverage/
+*.test.ts
+*.spec.ts
+
+# IDEs & System
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Documentation for development
+CONTRIBUTING.md

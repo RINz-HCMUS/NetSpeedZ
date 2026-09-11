@@ -1,0 +1,17 @@
+# Package & Build artifacts
+node_modules/
+dist/
+dist-ssr/
+build/
+coverage/
+
+# Lockfiles & Generated
+bun.lock
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Cache
+.cache/
+.vite/
+*.log

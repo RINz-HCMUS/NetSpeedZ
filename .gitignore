@@ -1,8 +1,80 @@
+# ==============================================================================
+# NetSpeedZ - Git Ignore Rules
+# ==============================================================================
+
+# Dependencies
 node_modules/
-build/
+.pnpm-store/
+jspm_packages/
+web_modules/
+
+# Production Build Outputs
 dist/
-coverage/
-.DS_Store
+dist-ssr/
+build/
+out/
+*.tsbuildinfo
+
+# Local Environment Variables & Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+!*.env.example
+
+# Runtime & Debug Logs
+logs/
 *.log
-.env*
-!.env.example
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Test Coverage & Diagnostics
+coverage/
+.nyc_output/
+*.lcov
+
+# Temporary & Cache Directories
+.cache/
+.vite/
+.parcel-cache/
+.eslintcache/
+.stylelintcache/
+*.tmp
+*.temp
+
+# IDEs, Editors & Tooling
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.project
+.classpath
+.settings/
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+
+# Cloud & Deployment Platforms
+.vercel
+.netlify
+.serverless/
+.turbo/

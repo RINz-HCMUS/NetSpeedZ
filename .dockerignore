@@ -1,0 +1,49 @@
+# ==============================================================================
+# NetSpeedZ - Docker Ignore Rules
+# ==============================================================================
+
+# Version Control
+.git/
+.github/
+.gitignore
+
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build Outputs & Cache
+dist/
+dist-ssr/
+build/
+.cache/
+.vite/
+*.tsbuildinfo
+
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+
+# Logs & Debugging
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Test & Coverage
+coverage/
+.nyc_output/
+
+# IDE & OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Documentation & Miscellaneous
+README.md
+CONTRIBUTING.md
+LICENSE
+Dockerfile*
+docker-compose*
