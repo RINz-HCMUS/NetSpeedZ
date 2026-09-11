@@ -19,7 +19,7 @@
 
   <br /><br />
 
-  **[ 🌐 Trải nghiệm Trực tiếp: net-speedz.vercel.app ](https://net-speedz.vercel.app/)** &nbsp;&bull;&nbsp; **[ 📖 Tài liệu Kỹ thuật ](#-kiến-trúc-kỹ-thuật)** &nbsp;&bull;&nbsp; **[ 🚀 Triển khai 1-Click ](#-triển-khai-nhanh-1-click-deployment)** &nbsp;&bull;&nbsp; **[ 🐛 Báo cáo Lỗi ](https://github.com/)** &nbsp;&bull;&nbsp; **[ 💡 Đề xuất Tính năng ](https://github.com/)**
+  **[ 🌐 Trải nghiệm Trực tiếp ](https://net-speedz.vercel.app/)** &nbsp;&bull;&nbsp; **[📖 Tài liệu Kỹ thuật ](#-kiến-trúc-kỹ-thuật)** &nbsp;&bull;&nbsp; **[ 🚀 Triển khai 1-Click ](#-triển-khai-nhanh-1-click-deployment)** &nbsp;&bull;&nbsp; **[ 🐛 Báo cáo Lỗi ](https://github.com/)** &nbsp;&bull;&nbsp; **[ 💡 Đề xuất Tính năng ](https://github.com/)**
 
 </div>
 
