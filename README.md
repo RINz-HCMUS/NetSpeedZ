@@ -28,6 +28,7 @@
 ## 📑 Mục lục
 
 - [Tổng quan](#-tổng-quan)
+- [Trải nghiệm Giao diện & Kết quả Tính năng](#-trải-nghiệm-giao-diện--kết-quả-tính-năng)
 - [Bảng so sánh tính năng](#-bảng-so-sánh-tính-năng)
 - [Kiến trúc kỹ thuật](#-kiến-trúc-kỹ-thuật)
 - [Phương pháp đo đạc & Thuật toán](#-phương-pháp-đo-đạc--thuật-toán)
@@ -55,6 +56,65 @@ Khác với các giải pháp truyền thống phụ thuộc vào cụm máy ch�
 - 🌐 **Nhận diện Dual-Stack IPv4 / IPv6:** Tự động phát hiện trạng thái địa chỉ IP, số hiệu Hệ thống tự trị (ASN), tổ chức mạng và vị trí địa lý.
 - 📉 **Chẩn đoán Bufferbloat (Loaded Latency):** Đo lường sự gia tăng độ trễ dưới điều kiện nghẽn băng thông để phát hiện hiện tượng tràn bộ đệm tại router.
 - 🛡️ **Zero Tracking & Data Privacy:** Không sử dụng cookies đăng nhập, không thu thập nhật ký truy cập, toàn quyền quản lý dữ liệu lưu trữ cục bộ.
+
+---
+
+## 📸 Trải nghiệm Giao diện & Kết quả Tính năng
+
+NetSpeedZ mang lại trải nghiệm đo kiểm Internet trực quan, hiện đại với ngôn ngữ thiết kế dark mode cao cấp, biểu đồ vector độ phân giải cao và tính năng tự động thích ứng với mọi kích thước màn hình:
+
+### 1. Giao diện Tổng quan & Đồng hồ Tốc độ Trung tâm (Dashboard Overview)
+Bảng điều khiển trung tâm với đồng hồ vector siêu xe hiển thị tốc độ tức thời theo đường cong phi tuyến, 4 thẻ chỉ số cốt lõi (**Độ trễ Ping**, **Biến thiên Jitter**, **Tải xuống**, **Tải lên**) và thanh mục lục điều hướng không viền bên phải.
+
+<div align="center">
+  <a href="./public/screenshots/demo-overview.svg" target="_blank">
+    <img src="./public/screenshots/demo-overview.svg" alt="NetSpeedZ Dashboard Overview" width="100%" style="max-width: 860px; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.4);" />
+  </a>
+</div>
+
+<br />
+
+### 2. Biểu đồ Băng thông & Telemetry Thời gian thực (Live Bandwidth Chart)
+Trực quan hóa diễn biến đo kiểm đa luồng trong 12 giây qua đồ thị diện tích kép (*Dual Area Spline*). Hỗ trợ rê chuột tra cứu lát cắt thời gian tức thời, lọc độc lập kênh Download / Upload và theo dõi độ ổn định đường truyền.
+
+<div align="center">
+  <a href="./public/screenshots/demo-live-chart.svg" target="_blank">
+    <img src="./public/screenshots/demo-live-chart.svg" alt="NetSpeedZ Live Telemetry Chart" width="100%" style="max-width: 860px; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.4);" />
+  </a>
+</div>
+
+<br />
+
+### 3. Đánh giá Năng lực Tác vụ Thực tế (Application Quality Assessment)
+Hệ thống NQS (*Network Quality Score*) phân tích mạng tự động dựa trên độ trễ thực tế và băng thông hữu dụng để đánh giá xếp hạng đường truyền cho 4 kịch bản thiết yếu: **Gaming / Esport**, **Truyền phát Video 4K/8K**, **Hội nghị Video Call** và **Tải tệp tin lớn**.
+
+<div align="center">
+  <a href="./public/screenshots/demo-quality-summary.svg" target="_blank">
+    <img src="./public/screenshots/demo-quality-summary.svg" alt="NetSpeedZ Quality Assessment" width="100%" style="max-width: 860px; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.4);" />
+  </a>
+</div>
+
+<br />
+
+### 4. Nhận diện Mạng Dual-Stack IPv4 / IPv6 & Khiên Bảo mật (Network & Security Shield)
+Tự động truy vấn và hiển thị song song cả 2 giao thức IPv4 và IPv6 của thiết bị, phân giải tên nhà mạng (ISP), số hiệu Hệ thống tự trị (ASN) và thành phố. Tích hợp tính năng che IP với 1 cú nhấp chuột để bảo mật khi chụp màn hình chia sẻ.
+
+<div align="center">
+  <a href="./public/screenshots/demo-network-ip.svg" target="_blank">
+    <img src="./public/screenshots/demo-network-ip.svg" alt="NetSpeedZ Network and Dual-Stack IP" width="100%" style="max-width: 860px; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.4);" />
+  </a>
+</div>
+
+<br />
+
+### 5. Lịch sử Đo kiểm Cục bộ & Phân tích Xu hướng (History & Trend Analytics)
+Toàn bộ lịch sử các lần kiểm tra được lưu trữ an toàn trong bộ nhớ cục bộ của trình duyệt (`localStorage`). Đi kèm biểu đồ đường sparkline phân tích xu hướng biến thiên tốc độ qua thời gian và hỗ trợ xuất dữ liệu ra file **CSV** hoặc **JSON**.
+
+<div align="center">
+  <a href="./public/screenshots/demo-history.svg" target="_blank">
+    <img src="./public/screenshots/demo-history.svg" alt="NetSpeedZ History and Analytics" width="100%" style="max-width: 860px; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.4);" />
+  </a>
+</div>
 
 ---
 
