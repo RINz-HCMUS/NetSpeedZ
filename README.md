@@ -59,60 +59,60 @@ Khác với các giải pháp truyền thống phụ thuộc vào cụm máy ch�
 
 ---
 
-## 📸 Trải nghiệm Giao diện & Kết quả Tính năng
+## 📸 Trải nghiệm Giao diện & Kết quả Thực tế (Chụp trực tiếp từ ứng dụng)
 
-NetSpeedZ mang lại trải nghiệm đo kiểm Internet trực quan, hiện đại với ngôn ngữ thiết kế dark mode cao cấp, biểu đồ vector độ phân giải cao và tính năng tự động thích ứng với mọi kích thước màn hình:
+NetSpeedZ mang lại trải nghiệm đo kiểm Internet trực quan, chuyên nghiệp với hình ảnh chụp thực tế (Real Screenshots) ghi nhận quá trình chạy trực tiếp trên môi trường trình duyệt:
 
 ### 1. Giao diện Tổng quan & Đồng hồ Tốc độ Trung tâm (Dashboard Overview)
-Bảng điều khiển trung tâm với đồng hồ vector siêu xe hiển thị tốc độ tức thời theo đường cong phi tuyến, 4 thẻ chỉ số cốt lõi (**Độ trễ Ping**, **Biến thiên Jitter**, **Tải xuống**, **Tải lên**) và thanh mục lục điều hướng không viền bên phải.
+Bảng điều khiển trung tâm với đồng hồ vector siêu xe hiển thị kết quả đo kiểm thực tế, 4 thẻ chỉ số cốt lõi (**Độ trễ Ping**, **Biến thiên Jitter**, **Tải xuống**, **Tải lên**) cùng thanh điều hướng mục lục không viền bên phải.
 
 <div align="center">
-  <a href="./public/screenshots/demo-overview.svg" target="_blank">
-    <img src="./public/screenshots/demo-overview.svg" alt="NetSpeedZ Dashboard Overview" width="100%" style="max-width: 860px; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.4);" />
+  <a href="./public/screenshots/real-overview.png" target="_blank">
+    <img src="./public/screenshots/real-overview.png" alt="NetSpeedZ Dashboard Overview (Ảnh chụp thực tế)" width="100%" style="max-width: 900px; border-radius: 12px; box-shadow: 0 10px 32px rgba(0,0,0,0.5);" />
   </a>
 </div>
 
 <br />
 
 ### 2. Biểu đồ Băng thông & Telemetry Thời gian thực (Live Bandwidth Chart)
-Trực quan hóa diễn biến đo kiểm đa luồng trong 12 giây qua đồ thị diện tích kép (*Dual Area Spline*). Hỗ trợ rê chuột tra cứu lát cắt thời gian tức thời, lọc độc lập kênh Download / Upload và theo dõi độ ổn định đường truyền.
+Ảnh chụp đồ thị diện tích kép (*Dual Area Spline*) ghi lại diễn biến lưu lượng đa luồng thực tế trong suốt 12 giây đo tải xuống và tải lên, thể hiện độ ổn định đường truyền mạng.
 
 <div align="center">
-  <a href="./public/screenshots/demo-live-chart.svg" target="_blank">
-    <img src="./public/screenshots/demo-live-chart.svg" alt="NetSpeedZ Live Telemetry Chart" width="100%" style="max-width: 860px; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.4);" />
+  <a href="./public/screenshots/real-chart.png" target="_blank">
+    <img src="./public/screenshots/real-chart.png" alt="NetSpeedZ Live Telemetry Chart (Ảnh chụp thực tế)" width="100%" style="max-width: 900px; border-radius: 12px; box-shadow: 0 10px 32px rgba(0,0,0,0.5);" />
   </a>
 </div>
 
 <br />
 
 ### 3. Đánh giá Năng lực Tác vụ Thực tế (Application Quality Assessment)
-Hệ thống NQS (*Network Quality Score*) phân tích mạng tự động dựa trên độ trễ thực tế và băng thông hữu dụng để đánh giá xếp hạng đường truyền cho 4 kịch bản thiết yếu: **Gaming / Esport**, **Truyền phát Video 4K/8K**, **Hội nghị Video Call** và **Tải tệp tin lớn**.
+Ảnh chụp bảng phân hạng NQS (*Network Quality Score*) tính toán trực tiếp từ kết quả đo vừa thực hiện, phân loại độ tương thích cho **Gaming / Esport**, **Xem phim 4K/8K**, **Hội nghị Video Call** và **Tải tệp tin lớn**.
 
 <div align="center">
-  <a href="./public/screenshots/demo-quality-summary.svg" target="_blank">
-    <img src="./public/screenshots/demo-quality-summary.svg" alt="NetSpeedZ Quality Assessment" width="100%" style="max-width: 860px; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.4);" />
+  <a href="./public/screenshots/real-quality.png" target="_blank">
+    <img src="./public/screenshots/real-quality.png" alt="NetSpeedZ Quality Assessment (Ảnh chụp thực tế)" width="100%" style="max-width: 900px; border-radius: 12px; box-shadow: 0 10px 32px rgba(0,0,0,0.5);" />
   </a>
 </div>
 
 <br />
 
 ### 4. Nhận diện Mạng Dual-Stack IPv4 / IPv6 & Khiên Bảo mật (Network & Security Shield)
-Tự động truy vấn và hiển thị song song cả 2 giao thức IPv4 và IPv6 của thiết bị, phân giải tên nhà mạng (ISP), số hiệu Hệ thống tự trị (ASN) và thành phố. Tích hợp tính năng che IP với 1 cú nhấp chuột để bảo mật khi chụp màn hình chia sẻ.
+Ảnh chụp thẻ phân giải địa chỉ mạng thực tế bao gồm trạng thái kết nối mạng ngoại vi, vị trí máy chủ, nhà cung cấp dịch vụ Internet (ISP), số hiệu ASN và nút bật/tắt che giấu IP cá nhân.
 
 <div align="center">
-  <a href="./public/screenshots/demo-network-ip.svg" target="_blank">
-    <img src="./public/screenshots/demo-network-ip.svg" alt="NetSpeedZ Network and Dual-Stack IP" width="100%" style="max-width: 860px; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.4);" />
+  <a href="./public/screenshots/real-network.png" target="_blank">
+    <img src="./public/screenshots/real-network.png" alt="NetSpeedZ Network and Dual-Stack IP (Ảnh chụp thực tế)" width="100%" style="max-width: 900px; border-radius: 12px; box-shadow: 0 10px 32px rgba(0,0,0,0.5);" />
   </a>
 </div>
 
 <br />
 
 ### 5. Lịch sử Đo kiểm Cục bộ & Phân tích Xu hướng (History & Trend Analytics)
-Toàn bộ lịch sử các lần kiểm tra được lưu trữ an toàn trong bộ nhớ cục bộ của trình duyệt (`localStorage`). Đi kèm biểu đồ đường sparkline phân tích xu hướng biến thiên tốc độ qua thời gian và hỗ trợ xuất dữ liệu ra file **CSV** hoặc **JSON**.
+Ảnh chụp bảng nhật ký đo kiểm lưu cục bộ trong máy, hiển thị chi tiết các lần chạy gần nhất, đường xu hướng biến động tốc độ và các tùy chọn xuất báo cáo dạng CSV / JSON.
 
 <div align="center">
-  <a href="./public/screenshots/demo-history.svg" target="_blank">
-    <img src="./public/screenshots/demo-history.svg" alt="NetSpeedZ History and Analytics" width="100%" style="max-width: 860px; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.4);" />
+  <a href="./public/screenshots/real-history.png" target="_blank">
+    <img src="./public/screenshots/real-history.png" alt="NetSpeedZ History and Analytics (Ảnh chụp thực tế)" width="100%" style="max-width: 900px; border-radius: 12px; box-shadow: 0 10px 32px rgba(0,0,0,0.5);" />
   </a>
 </div>
 
