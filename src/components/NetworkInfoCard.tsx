@@ -60,7 +60,7 @@ export const NetworkInfoCard: React.FC<NetworkInfoCardProps> = ({
   return (
     <div
       id="network-info-card"
-      className="p-5 sm:p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm transition-colors"
+      className="p-5 sm:p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm transition-colors scroll-mt-20"
     >
       {/* Card Header: Tiêu đề gọn gàng & nút Làm mới có giải thích rõ mục đích */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-4 mb-5 border-b border-slate-100 dark:border-slate-800">
@@ -237,7 +237,7 @@ export const NetworkInfoCard: React.FC<NetworkInfoCardProps> = ({
 
           <div className="pt-2 mt-3 border-t border-slate-200/60 dark:border-slate-700/50 text-[11px] text-slate-400 dark:text-slate-500">
             {info?.ipv6
-              ? (showRealIpv6 ? 'Hiển thị đầy đủ IPv6 (tự động ngắt dòng)' : 'Đã che toàn bộ để bảo vệ quyền riêng tư')
+              ? (showRealIpv6 ? 'Đang hiện địa chỉ IPv6 thực' : 'Đã che toàn bộ để bảo vệ quyền riêng tư')
               : 'Giao thức thế hệ mới (tùy thuộc modem & nhà mạng)'}
           </div>
         </div>

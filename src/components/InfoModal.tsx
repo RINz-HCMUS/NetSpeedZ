@@ -4,9 +4,11 @@ import {
   AlertCircle,
   Award,
   CheckCircle2,
+  ExternalLink,
   Film,
   Gamepad2,
   Gauge,
+  Github,
   Globe,
   HardDriveDownload,
   HelpCircle,
@@ -178,6 +180,29 @@ export const InfoModal: React.FC<InfoModalProps> = ({ isOpen, onClose }) => {
                     Lịch sử đo lưu trên trình duyệt của thiết bị; hỗ trợ xuất dữ liệu ra file CSV và JSON.
                   </p>
                 </div>
+              </div>
+
+              {/* Author & Open Source Card */}
+              <div className="p-3.5 rounded-xl bg-gradient-to-r from-slate-50 via-cyan-50/30 to-blue-50/40 dark:from-slate-800/80 dark:via-cyan-950/20 dark:to-blue-950/30 border border-slate-200/90 dark:border-slate-800 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                <div>
+                  <div className="font-bold text-slate-800 dark:text-slate-200 text-xs flex items-center gap-1.5">
+                    <span>Một dự án mã nguồn mở của</span>
+                    <strong className="text-cyan-600 dark:text-cyan-400 font-extrabold">Rinz</strong>
+                  </div>
+                  <p className="text-[11px] text-slate-500 dark:text-slate-400 mt-0.5">
+                    Mã nguồn mở hoàn toàn theo giấy phép MIT. Hoan nghênh mọi đóng góp và báo lỗi.
+                  </p>
+                </div>
+                <a
+                  href="https://github.com/RINz-HCMUS/NetSpeedZ"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-900 dark:bg-white text-white dark:text-slate-900 font-semibold text-xs hover:opacity-90 transition-opacity shrink-0 cursor-pointer shadow-xs"
+                >
+                  <Github className="w-3.5 h-3.5" />
+                  <span>GitHub Repo</span>
+                  <ExternalLink className="w-3 h-3 opacity-75" />
+                </a>
               </div>
             </div>
           )}

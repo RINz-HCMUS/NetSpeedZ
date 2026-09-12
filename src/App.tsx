@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import {
   ArrowRight,
   ExternalLink,
+  Github,
   Globe2,
   Info,
   Lock,
@@ -20,6 +21,7 @@ import { MetricCard } from './components/MetricCard';
 import { NetworkInfoCard } from './components/NetworkInfoCard';
 import { PrivacyModal } from './components/PrivacyModal';
 import { QualitySummary } from './components/QualitySummary';
+import { RightNavToc } from './components/RightNavToc';
 import { SecurityShieldModal } from './components/SecurityShieldModal';
 import { ServerSelectorModal } from './components/ServerSelectorModal';
 import { Speedometer } from './components/Speedometer';
@@ -346,7 +348,7 @@ export default function App() {
       {/* Main Container */}
       <main className="flex-1 max-w-6xl w-full mx-auto px-4 sm:px-6 py-5 sm:py-7 space-y-6">
         {/* Speed Dial & 4 Metric Cards */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
+        <div id="speedtest-section" className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center scroll-mt-20">
           {/* Central Speedometer Dial (7 columns on large screen) */}
           <div className="lg:col-span-7 flex flex-col items-center p-5 sm:p-6 lg:p-7 rounded-3xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm relative overflow-hidden transition-colors">
             {/* Background subtle glow */}
@@ -447,6 +449,7 @@ export default function App() {
             data={liveDataPoints}
             stage={stage}
             currentSpeed={currentSpeed}
+            metrics={metrics}
           />
         )}
 
@@ -475,21 +478,43 @@ export default function App() {
 
       {/* Footer */}
       <footer className="mt-auto border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 py-6 text-xs text-slate-500 dark:text-slate-400 transition-colors">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
           <div className="flex items-center gap-3">
             <ZLightningLogo size={36} />
             <div>
-              <div className="font-bold text-sm text-slate-800 dark:text-slate-200 flex items-center gap-1.5 leading-tight">
+              <div className="font-bold text-sm text-slate-800 dark:text-slate-200 flex items-center justify-center sm:justify-start gap-1.5 leading-tight">
                 <span>NetSpeed</span>
                 <span className="text-cyan-500 font-black">Z</span>
               </div>
               <p className="text-[11px] text-slate-500 dark:text-slate-400 mt-0.5">
-                Đo kiểm tra &amp; phân tích đường truyền Internet thế hệ mới
+                Một dự án mã nguồn mở của{' '}
+                <a
+                  href="https://github.com/RINz-HCMUS/NetSpeedZ"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-semibold text-blue-600 dark:text-cyan-400 hover:underline inline-flex items-center gap-0.5"
+                >
+                  Rinz
+                  <ExternalLink className="w-2.5 h-2.5 inline opacity-70" />
+                </a>
               </p>
             </div>
           </div>
 
-          <div className="flex items-center gap-4">
+          <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6">
+            <a
+              id="footer-github-link"
+              href="https://github.com/RINz-HCMUS/NetSpeedZ"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-1.5 text-slate-600 dark:text-slate-300 hover:text-cyan-600 dark:hover:text-cyan-400 font-medium transition-colors cursor-pointer"
+            >
+              <Github className="w-4 h-4 text-slate-700 dark:text-slate-300" />
+              <span>GitHub Repository</span>
+            </a>
+
+            <span className="text-slate-300 dark:text-slate-700 select-none">&bull;</span>
+
             <button
               onClick={() => setShowPrivacyModal(true)}
               className="hover:text-blue-600 dark:hover:text-blue-400 cursor-pointer transition-colors"
@@ -499,6 +524,13 @@ export default function App() {
           </div>
         </div>
       </footer>
+
+      {/* Right Navigation Table of Contents */}
+      <RightNavToc
+        isTesting={isTesting}
+        stage={stage}
+        hasAssessment={!!assessment}
+      />
 
       {/* Server Selection Modal */}
       <ServerSelectorModal

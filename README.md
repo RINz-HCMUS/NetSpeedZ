@@ -19,7 +19,7 @@
 
   <br /><br />
 
-  **[ 🌐 Trải nghiệm Trực tiếp ](https://net-speedz.vercel.app/)** &nbsp;&bull;&nbsp; **[📖 Tài liệu Kỹ thuật ](#-kiến-trúc-kỹ-thuật)** &nbsp;&bull;&nbsp; **[ 🚀 Triển khai 1-Click ](#-triển-khai-nhanh-1-click-deployment)** &nbsp;&bull;&nbsp; **[ 🐛 Báo cáo Lỗi ](https://github.com/)** &nbsp;&bull;&nbsp; **[ 💡 Đề xuất Tính năng ](https://github.com/)**
+  **[ 🌐 Trải nghiệm Trực tiếp ](https://net-speedz.vercel.app/)** &nbsp;&bull;&nbsp; **[ 📖 Tài liệu Kỹ thuật ](#-kiến-trúc-kỹ-thuật)** &nbsp;&bull;&nbsp; **[ 🚀 Triển khai 1-Click ](#-triển-khai-nhanh-1-click-deployment)** &nbsp;&bull;&nbsp; **[ 🐛 Báo cáo Lỗi ](https://github.com/RINz-HCMUS/NetSpeedZ/issues)** &nbsp;&bull;&nbsp; **[ 💡 Đề xuất Tính năng ](https://github.com/RINz-HCMUS/NetSpeedZ/issues)**
 
 </div>
 
@@ -187,7 +187,7 @@ NetSpeedZ/
 
 ```bash
 # 1. Sao chép kho mã nguồn
-git clone https://github.com/<username>/NetSpeedZ.git
+git clone https://github.com/RINz-HCMUS/NetSpeedZ.git
 cd NetSpeedZ
 
 # 2. Cài đặt các gói phụ thuộc
@@ -215,9 +215,9 @@ Vì NetSpeedZ được xây dựng dưới dạng **Single Page Application (SPA
 
 ### Nền tảng Đám mây (Cloud Providers)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fusername%2FNetSpeedZ)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FRINz-HCMUS%2FNetSpeedZ)
 &nbsp;
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/username/NetSpeedZ)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/RINz-HCMUS/NetSpeedZ)
 &nbsp;
 [![Deploy to Cloudflare Pages](https://img.shields.io/badge/Deploy%20to-Cloudflare%20Pages-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)](https://dash.cloudflare.com/)
 
